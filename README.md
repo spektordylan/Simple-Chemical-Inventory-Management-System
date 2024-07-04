@@ -14,6 +14,7 @@ To make the JavaFX libraries accessible to the application, they have been added
 Alternatively, a settings.json file can be included in the .vscode folder containing the proper paths to the JavaFX .jar files in the 'lib' folder of the downloaded SDK on the host machine.
 A sample settings.json file is seen below:
 
+```
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
@@ -29,6 +30,7 @@ A sample settings.json file is seen below:
         "c:\\javafx-sdk-21.0.2\\lib\\javafx.media.jar"
     ]
 }
+```
 
 Finally, the launch.json file should contain the following line for the Main.java class in the src folder:
 
